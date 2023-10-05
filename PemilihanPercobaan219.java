@@ -13,6 +13,6 @@ public class PemilihanPercobaan219 {
     float tugas = input19.nextFloat();
     float total = (uas*0.4F)+(uts*0.3F)+(kuis*0.1F)+(tugas*0.2F);
     String massage = total < 65 ? "Remedi" : "Tidak remidi";
-    System.out.println("Nilai Akhir = " + total +" Sehingga " +massage);
+    System.out.println("Nilai Akhir = " + total +" Sehingga " + massage);
     }
 }
