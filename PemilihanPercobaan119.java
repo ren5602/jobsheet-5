@@ -4,7 +4,7 @@ public class PemilihanPercobaan119{
         Scanner input19 = new Scanner(System.in);
         System.out.print("masukkan Angka: ");
         int angka = input19.nextInt();
-        String result = (angka % 2 == 0)? "Bilangan Genap" : "Bilangan Ganjil";
+        String result = (angka % 2 == 0)? "Angka " + angka + " Bilangan Genap" : "Angka " + angka + " Bilangan Ganjil";
         System.out.println(result);
         
     }
