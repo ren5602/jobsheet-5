@@ -6,6 +6,5 @@ public class PemilihanPercobaan119{
         int angka = input19.nextInt();
         String result = (angka % 2 == 0)? "Angka " + angka + " Bilangan Genap" : "Angka " + angka + " Bilangan Ganjil";
         System.out.println(result);
-        
     }
 }
